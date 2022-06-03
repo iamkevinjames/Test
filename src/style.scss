@@ -1,0 +1,112 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+//Top Bar
+.primary {
+  color: #61dafb;
+}
+.white {
+  color: white;
+}
+
+.topBar {
+  background-color: black;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+//Navigation Bar
+.navigation-bar {
+  background-color: #20232a;
+  position: fixed;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+.react {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  padding-left: 100px;
+}
+
+.navigation li {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+.navigation li:hover {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+//Search
+.search {
+  margin-left: 100px;
+}
+
+.search-box {
+  outline: none;
+  border-radius: 5px;
+  background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding-left: 25px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: transparent;
+  border: 0px;
+}
+
+.search-box:focus {
+  background-color: #444;
+}
+
+//Navigation footer
+.navigation-footer {
+  display: flex;
+}
+
+.navigation-footer-item {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+.language {
+  display: flex;
+}
+.language img {
+  margin-right: 10px;
+}
+
+.git {
+  display: flex;
+}
+
+.git img {
+  margin-left: 5px;
+}
